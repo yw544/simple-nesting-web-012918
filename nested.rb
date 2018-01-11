@@ -14,9 +14,10 @@ def hopper
           :known_for => "Unix",
           :languages => ["C"]
         }
+				programmer_hash[:hopper] = [:grace_hopper]
+
      }
-programmer_hash[:hopper] = [:grace_hopper]
-puts grace_hopper
+
 
 end
 
