@@ -113,6 +113,7 @@ def changing_alan
 		alans_new_info = alan[:known_for]
 
 		 alans_new_info = "GUI"
+		 programmer_hash[]=[:changing_alan][:alans_new_info]
 
 
 
