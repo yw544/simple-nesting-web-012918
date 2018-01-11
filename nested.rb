@@ -114,7 +114,7 @@ alans_new_info = programmer_hash[:alan_kay]
 		 alans_new_info[:known_for] = "GUI"
 		changing_alan = alans_new_info[:known_for]
 		programmer_hash[:changing_alan] = alans_new_info
-
+:changing_alan
 
 end
 
