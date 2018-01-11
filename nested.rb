@@ -106,15 +106,17 @@ def changing_alan
         :dennis_ritchie => {
           :known_for => "Unix",
           :languages => ["C"]
-        }
+        },
+				:changing_alan =>{
+					:known_for => "GUI"
+				}
+
      }
      #change what Alan Kay is :known_for to the value of the alans_new_info variable.
 alans_new_info = programmer_hash[:alan_kay]
 
 		 alans_new_info[:known_for] = "GUI"
-		changing_alan = alans_new_info[:known_for]
-		programmer_hash[:changing_alan] = alans_new_info
-puts [:changing_alan]
+
 
 end
 
