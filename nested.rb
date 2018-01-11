@@ -113,7 +113,7 @@ alans_new_info = programmer_hash[:alan_kay]
 
 		 alans_new_info[:known_for] = "GUI"
 		changing_alan = alans_new_info[:known_for]
-		programmer_hash[:changing_alan] = [:alan_kay]
+		programmer_hash[:changing_alan] = :alan_kay
 changing_alan[:alan_kay][:known_for]
 end
 
