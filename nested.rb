@@ -112,7 +112,7 @@ def changing_alan
 alan = programmer_hash[:alan_kay]
 
 		 alans_new_info = "GUI"
-		alan[:known_for] = alans_new_info
+		alan[:known_for] = "GUI"
 		programmer_hash[:changing_alan] = {:alan_kay=>:known_for}
 		puts :changing_alan
 
